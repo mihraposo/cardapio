@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+    width: 100%;
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color:sienna;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.filter-btn {
+    font-size: large;
+    background-color: #dddddd;
+    color: #6b4328;
+    text-decoration: none;
+    right:50px;
+    padding: 8px 16px;
+    width: 120px;
+    border: transparent;
+    border-radius: 20px;
+}
+
+.filter-btn:hover {
+    background-color: sienna;
+    color: white;
+}
+
+.section-center {
+    display: flex;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-color: #6b4328;
+    padding: 0;
+    margin: 0;
+
+
+
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.menu-items {
+display: flex;
+text-align: justify;
+margin: 20px;
+
+}
+
+.photo {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    padding: 30px;
+
+}
+
+.item-info {
+    height: 150px;
+    width: 150px;
+    font-size: small;
+    font-style: bold;
+    border: 20px #6b4328;
+    border-radius: 20px;
+}
